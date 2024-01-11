@@ -5,10 +5,10 @@ function Header() {
     <div>
       <h2>Header</h2>
       <nav>
-        <ul>
-          <Link to='/home'>HomeScreen</Link>
-          <Link to='/clientes'>ClientesScreen</Link>
-          <Link to='/'>App</Link>
+        <ul style={{padding: 0}}>
+          <Link to='/home'>HomeScreen  </Link>
+          <Link to='/clientes'>ClientesScreen  </Link>
+          <Link to='/'>App  </Link>
         </ul>
       </nav>
     </div>
