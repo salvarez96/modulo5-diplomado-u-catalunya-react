@@ -4,6 +4,7 @@ import HomeScreen from './screens/home/HomeScreen'
 import ClientesScreen from './screens/clientes/ClientesScreen'
 import DefaultLayout from './layout/default/DefaultLayout'
 import ContactFormScreen from './screens/contacto/ContactFormScreen'
+import SteptedContactForm from './screens/contacto/SteptedContactForm'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path='/home' element={<HomeScreen />} />
           <Route path='/clientes' element={<ClientesScreen />} />
           <Route path='/contacto' element={<ContactFormScreen />} />
+          <Route path='/contacto-step' element={<SteptedContactForm />} />
         </Route>
       </Routes>
     </>
