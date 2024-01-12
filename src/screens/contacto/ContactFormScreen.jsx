@@ -1,4 +1,5 @@
 import { useState } from "react"
+import UseFormikForm from "../../components/UseFormikForm"
 
 function ContactFormScreen() {
 
@@ -44,6 +45,8 @@ function ContactFormScreen() {
         <br />
         <button type="button" onClick={handleSubmit}>Enviar</button>
       </form>
+      <br />
+      <UseFormikForm />
     </>
   )
 }
