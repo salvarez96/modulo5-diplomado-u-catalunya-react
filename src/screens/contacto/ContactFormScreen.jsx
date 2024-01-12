@@ -1,5 +1,6 @@
 import { useState } from "react"
 import UseFormikForm from "../../components/UseFormikForm"
+import FormikForm from "../../components/FormikForm"
 
 function ContactFormScreen() {
 
@@ -17,6 +18,7 @@ function ContactFormScreen() {
 
   return (
     <>
+      <p>Formulario normal: </p>
       <form action="">
         <div>
           <label htmlFor="nombre">Nombre: </label>
@@ -46,7 +48,10 @@ function ContactFormScreen() {
         <button type="button" onClick={handleSubmit}>Enviar</button>
       </form>
       <br />
+      <p>Formulario con useFormik:</p>
       <UseFormikForm />
+      <p>Formulario con Formik</p>
+      <FormikForm />
     </>
   )
 }
