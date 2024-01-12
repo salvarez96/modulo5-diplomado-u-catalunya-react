@@ -9,6 +9,7 @@ function Header() {
           <Link to='/home'>HomeScreen  </Link>
           <Link to='/clientes'>ClientesScreen  </Link>
           <Link to='/'>App  </Link>
+          <Link to='/contacto'>ContactFormScreen  </Link>
         </ul>
       </nav>
     </div>
